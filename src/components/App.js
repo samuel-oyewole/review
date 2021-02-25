@@ -2,13 +2,13 @@
 
 import React from "react";
 import Review from "./review";
-
 function App() {
   return (
     <main>
-      <section className="container">
+      <section>
         <div className="title">
-          <h2>Our Reviews</h2>
+          <h4>reviews project setup</h4>
+          <div className="underline"></div>
         </div>
         <Review></Review>
       </section>
